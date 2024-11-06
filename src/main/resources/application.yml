@@ -30,6 +30,9 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
         format_sql: true
 
+    # SQL Query 활성화
+    show-sql: true
+
   # local 레디스 개발 (추후 변경)
   data:
     redis:
